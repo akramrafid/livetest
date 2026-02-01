@@ -53,7 +53,7 @@ class _ContactListScreenState extends State<ContactListScreen> {
             TextFormField(
               controller: _nameController,
               decoration: const InputDecoration(
-                hintText: "Name",
+                hintText: "Enter YourName",
                 border: OutlineInputBorder(),
                 contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 16),
               ),
@@ -63,7 +63,7 @@ class _ContactListScreenState extends State<ContactListScreen> {
               controller: _numberController,
               keyboardType: TextInputType.phone,
               decoration: const InputDecoration(
-                hintText: "Number",
+                hintText: "Enter Your Number",
                 border: OutlineInputBorder(),
                 contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 16),
               ),
